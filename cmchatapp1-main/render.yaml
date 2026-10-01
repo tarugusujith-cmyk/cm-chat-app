@@ -1,0 +1,13 @@
+# Render.com blueprint for deploying the json-server API.
+# Push this repo to GitHub, then on Render: New -> Blueprint -> pick this repo.
+# Render will read this file and provision the service automatically.
+services:
+  - type: web
+    name: cm-chat-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run start
+    envVars:
+      - key: NODE_VERSION
+        value: 20

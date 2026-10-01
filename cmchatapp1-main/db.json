@@ -1,0 +1,622 @@
+{
+  "users": [
+    {
+      "id": "me",
+      "name": "Shreyansh Shah",
+      "about": "Hey there, I am learning from coding monk",
+      "avatar": "https://i.pravatar.cc/150?img=13",
+      "online": true,
+      "phone": "+91 6265 081 928"
+    },
+    {
+      "id": "u1",
+      "name": "Pink Panda",
+      "about": "Chasing bamboo dreams 🎋",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "online": true,
+      "phone": "+91 9821 445 210"
+    },
+    {
+      "id": "u2",
+      "name": "Dog Hat",
+      "about": "Woof life, best life",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "online": true,
+      "phone": "+91 7411 902 337"
+    },
+    {
+      "id": "u3",
+      "name": "Cute Turtle",
+      "about": "Slow and steady",
+      "avatar": "https://i.pravatar.cc/150?img=15",
+      "online": true,
+      "phone": "+91 8899 001 122"
+    },
+    {
+      "id": "u4",
+      "name": "Cool spirit",
+      "about": "Good vibes only",
+      "avatar": "https://i.pravatar.cc/150?img=16",
+      "online": true,
+      "phone": "+91 9900 112 233"
+    },
+    {
+      "id": "u5",
+      "name": "strange cat",
+      "about": "Curiouser and curiouser",
+      "avatar": "https://i.pravatar.cc/150?img=17",
+      "online": true,
+      "phone": "+91 7000 556 789"
+    },
+    {
+      "id": "u6",
+      "name": "Fire Fox",
+      "about": "Browsing the wild",
+      "avatar": "https://i.pravatar.cc/150?img=18",
+      "online": true,
+      "phone": "+91 8123 456 780"
+    },
+    {
+      "id": "u7",
+      "name": "Dinesh",
+      "about": "Always up for a call",
+      "avatar": "https://i.pravatar.cc/150?img=11",
+      "online": false,
+      "phone": "+91 9988 776 655"
+    }
+  ],
+  "chats": [
+    {
+      "id": "c1",
+      "type": "direct",
+      "participantIds": [
+        "me",
+        "u1"
+      ],
+      "pinned": true,
+      "archived": false,
+      "unread": 0,
+      "muted": false,
+      "blocked": false
+    },
+    {
+      "id": "c2",
+      "type": "direct",
+      "participantIds": [
+        "me",
+        "u2"
+      ],
+      "pinned": true,
+      "archived": false,
+      "unread": 2,
+      "muted": false,
+      "blocked": false
+    },
+    {
+      "id": "c3",
+      "type": "direct",
+      "participantIds": [
+        "me",
+        "u3"
+      ],
+      "pinned": false,
+      "archived": false,
+      "unread": 3,
+      "muted": false,
+      "blocked": false
+    },
+    {
+      "id": "c4",
+      "type": "direct",
+      "participantIds": [
+        "me",
+        "u4"
+      ],
+      "pinned": false,
+      "archived": false,
+      "unread": 0,
+      "muted": false,
+      "blocked": false
+    },
+    {
+      "id": "c5",
+      "type": "direct",
+      "participantIds": [
+        "me",
+        "u5"
+      ],
+      "pinned": false,
+      "archived": false,
+      "unread": 0,
+      "muted": false,
+      "blocked": false
+    },
+    {
+      "id": "c6",
+      "type": "direct",
+      "participantIds": [
+        "me",
+        "u6"
+      ],
+      "pinned": false,
+      "archived": false,
+      "unread": 0,
+      "muted": false,
+      "blocked": false
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "name": "Animal Kingdom",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "participantIds": [
+        "me",
+        "u1",
+        "u3",
+        "u4",
+        "u5",
+        "u6"
+      ],
+      "extraCount": 212,
+      "pinned": true,
+      "archived": false,
+      "unread": 0,
+      "muted": false,
+      "blocked": false
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "name": "Dog Hat",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "participantIds": [
+        "me",
+        "u2",
+        "u4"
+      ],
+      "extraCount": 0,
+      "pinned": true,
+      "archived": false,
+      "unread": 0,
+      "muted": false,
+      "blocked": false
+    }
+  ],
+  "messages": [
+    {
+      "id": "m1",
+      "chatId": "c1",
+      "senderId": "u1",
+      "type": "text",
+      "text": "Hi 👋, How are ya ?",
+      "time": "2026-09-17T00:12:00",
+      "reactions": [],
+      "starred": true
+    },
+    {
+      "id": "m2",
+      "chatId": "c1",
+      "senderId": "me",
+      "type": "text",
+      "text": "Hi 👋Panda, not bad, u ?",
+      "time": "2026-09-18T08:17:00",
+      "reactions": [],
+      "starred": true
+    },
+    {
+      "id": "m3",
+      "chatId": "c1",
+      "senderId": "me",
+      "type": "text",
+      "text": "Can you send me an abstarct image?",
+      "time": "2026-09-18T08:17:00",
+      "reactions": [],
+      "starred": true
+    },
+    {
+      "id": "m4",
+      "chatId": "c1",
+      "senderId": "u1",
+      "type": "image",
+      "text": "",
+      "fileUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+      "time": "2026-09-18T10:35:00",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 1
+        }
+      ],
+      "starred": false
+    },
+    {
+      "id": "m5",
+      "chatId": "c1",
+      "senderId": "me",
+      "type": "text",
+      "text": "Can you send it as file ?",
+      "time": "2026-09-18T11:12:00",
+      "reactions": [],
+      "starred": true
+    },
+    {
+      "id": "m6",
+      "chatId": "c1",
+      "senderId": "u1",
+      "type": "file",
+      "text": "",
+      "fileName": "Abstract.png",
+      "fileSize": "1.2 MB",
+      "time": "2026-09-18T11:25:00",
+      "reactions": [],
+      "starred": true
+    },
+    {
+      "id": "m7",
+      "chatId": "c1",
+      "senderId": "me",
+      "type": "text",
+      "text": "Thnx!",
+      "time": "2026-09-18T11:28:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m8",
+      "chatId": "c2",
+      "senderId": "u2",
+      "type": "text",
+      "text": "It's so quite outside 🤫",
+      "time": "2026-09-17T09:36:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m9",
+      "chatId": "c3",
+      "senderId": "u3",
+      "type": "text",
+      "text": "I think we should meet up",
+      "time": "2026-09-17T09:10:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m10",
+      "chatId": "c3",
+      "senderId": "u3",
+      "type": "text",
+      "text": "That's It. Goodbye!",
+      "time": "2026-09-17T09:36:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m11",
+      "chatId": "c4",
+      "senderId": "u4",
+      "type": "text",
+      "text": "Look what I found",
+      "time": "2026-09-17T09:36:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m12",
+      "chatId": "c5",
+      "senderId": "me",
+      "type": "text",
+      "text": "Hi, sorry to bother you..",
+      "time": "2026-09-17T09:36:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m13",
+      "chatId": "c6",
+      "senderId": "u6",
+      "type": "text",
+      "text": "What does the fox says?",
+      "time": "2026-09-17T09:36:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m14",
+      "chatId": "g1",
+      "senderId": "u1",
+      "type": "text",
+      "text": "Hi 🐼, How are ya ?",
+      "time": "2026-09-17T00:12:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m15",
+      "chatId": "g1",
+      "senderId": "me",
+      "type": "text",
+      "text": "Hi 👋Panda, not bad, u ?",
+      "time": "2026-09-18T08:17:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m16",
+      "chatId": "g1",
+      "senderId": "me",
+      "type": "text",
+      "text": "Can you send me an abstarct image?",
+      "time": "2026-09-18T08:17:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m17",
+      "chatId": "g1",
+      "senderId": "u1",
+      "type": "image",
+      "text": "",
+      "fileUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+      "time": "2026-09-18T10:35:00",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 1
+        }
+      ],
+      "starred": false
+    },
+    {
+      "id": "m18",
+      "chatId": "g1",
+      "senderId": "me",
+      "type": "text",
+      "text": "Can you send it as file ?",
+      "time": "2026-09-18T11:12:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m19",
+      "chatId": "g1",
+      "senderId": "u1",
+      "type": "file",
+      "text": "",
+      "fileName": "Abstract.png",
+      "fileSize": "1.2 MB",
+      "time": "2026-09-18T11:25:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m20",
+      "chatId": "g1",
+      "senderId": "me",
+      "type": "text",
+      "text": "thnx!",
+      "time": "2026-09-18T11:28:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m21",
+      "chatId": "g2",
+      "senderId": "u2",
+      "type": "text",
+      "text": "It's so quite outside 🤫",
+      "time": "2026-09-17T09:36:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m30",
+      "chatId": "c1",
+      "senderId": "u1",
+      "type": "file",
+      "text": "",
+      "fileName": "Booked Ticket.pdf",
+      "fileSize": "842 KB",
+      "fileKind": "pdf",
+      "time": "2022-10-27T09:10:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m31",
+      "chatId": "c1",
+      "senderId": "u1",
+      "type": "file",
+      "text": "",
+      "fileName": "Sales Report.xlsx",
+      "fileSize": "1.4 MB",
+      "fileKind": "excel",
+      "time": "2022-10-27T09:15:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m32",
+      "chatId": "c1",
+      "senderId": "me",
+      "type": "link",
+      "text": "Check this out",
+      "linkUrl": "https://codingmonk.in/blogs",
+      "linkDomain": "codingmonk.in",
+      "time": "2022-10-27T09:20:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m33",
+      "chatId": "c1",
+      "senderId": "u1",
+      "type": "link",
+      "text": "",
+      "linkUrl": "https://codingmonk.in/blogs",
+      "linkDomain": "codingmonk.in",
+      "time": "2022-10-27T09:25:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m22",
+      "chatId": "c1",
+      "senderId": "u1",
+      "type": "link",
+      "text": "Check this out",
+      "time": "2026-09-17T09:05:00",
+      "reactions": [],
+      "starred": false,
+      "linkUrl": "https://codingmonk.in/blogs",
+      "linkDomain": "codingmonk.in"
+    },
+    {
+      "id": "m23",
+      "chatId": "c1",
+      "senderId": "me",
+      "type": "link",
+      "text": "",
+      "time": "2026-09-17T09:07:00",
+      "reactions": [],
+      "starred": false,
+      "linkUrl": "https://codingmonk.in/blogs/react-tips",
+      "linkDomain": "codingmonk.in"
+    },
+    {
+      "id": "m24",
+      "chatId": "c1",
+      "senderId": "u1",
+      "type": "file",
+      "text": "",
+      "fileName": "Booked Ticket.pdf",
+      "fileSize": "340 KB",
+      "time": "2026-09-17T09:15:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m25",
+      "chatId": "c1",
+      "senderId": "me",
+      "type": "file",
+      "text": "",
+      "fileName": "Sales Report.xlsx",
+      "fileSize": "88 KB",
+      "time": "2026-09-17T09:20:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m26",
+      "chatId": "c1",
+      "senderId": "u1",
+      "type": "image",
+      "text": "",
+      "fileUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80",
+      "time": "2026-09-15T14:00:00",
+      "reactions": [],
+      "starred": false
+    },
+    {
+      "id": "m27",
+      "chatId": "c1",
+      "senderId": "me",
+      "type": "image",
+      "text": "",
+      "fileUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80",
+      "time": "2026-09-15T14:05:00",
+      "reactions": [],
+      "starred": false
+    }
+  ],
+  "calls": [
+    {
+      "id": "call1",
+      "userId": "u7",
+      "kind": "audio",
+      "direction": "outgoing",
+      "status": "answered",
+      "time": "Yesterday, 21:29"
+    },
+    {
+      "id": "call2",
+      "userId": "u2",
+      "kind": "audio",
+      "direction": "outgoing",
+      "status": "missed",
+      "time": "Yesterday, 16:53"
+    },
+    {
+      "id": "call3",
+      "userId": "u3",
+      "kind": "audio",
+      "direction": "outgoing",
+      "status": "missed",
+      "time": "Yesterday, 16:53"
+    },
+    {
+      "id": "call4",
+      "userId": "u4",
+      "kind": "video",
+      "direction": "outgoing",
+      "status": "missed",
+      "time": "Yesterday, 16:53"
+    },
+    {
+      "id": "call5",
+      "userId": "u5",
+      "kind": "video",
+      "direction": "outgoing",
+      "status": "missed",
+      "time": "Yesterday, 16:53"
+    }
+  ],
+  "statuses": [
+    {
+      "id": "s1",
+      "userId": "me",
+      "images": [
+        "https://images.unsplash.com/photo-1548013146-72079768bed5?w=500&q=80"
+      ],
+      "postedAt": "2026-09-17T14:00:00",
+      "seenBy": []
+    },
+    {
+      "id": "s2",
+      "userId": "u2",
+      "images": [
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500&q=80",
+        "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500&q=80",
+        "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500&q=80"
+      ],
+      "postedAt": "2026-09-18T09:33:00",
+      "seenBy": []
+    },
+    {
+      "id": "s3",
+      "userId": "u3",
+      "images": [
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=500&q=80"
+      ],
+      "postedAt": "2026-09-18T08:46:00",
+      "seenBy": [
+        "me"
+      ]
+    },
+    {
+      "id": "s4",
+      "userId": "u4",
+      "images": [
+        "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=500&q=80",
+        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=80"
+      ],
+      "postedAt": "2026-09-17T11:20:00",
+      "seenBy": [
+        "me"
+      ]
+    }
+  ],
+  "currentUserId": "me",
+  "$schema": "./node_modules/json-server/schema.json"
+}
